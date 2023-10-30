@@ -53,6 +53,16 @@ public class Gato {
     public void setTamaño(String tamaño) {
         this.tamaño = tamaño;
     }
+    
+    // Otros métodos de la clase Gato
+    public void maullar() {
+        System.out.println(nombre + " dice: ¡Miau, miau!");
+    }
+
+    public void comer() {
+        System.out.println(nombre + " está comiendo.");
+    }
+
 
     @Override
     public String toString() {
